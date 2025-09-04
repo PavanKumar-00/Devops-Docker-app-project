@@ -17,13 +17,17 @@ Devops-Docker-app-project/
  app/ # Application source code
  .env # Environment variables (optional)
 
+
 docker build -t myapp:latest.
+
 docker run -p 8080:8080 myapp:latest
 
-
 docker-compose up --build
+
 docker ps
+
 docker-compose down
+
 docker logs <container_id>
 
 
